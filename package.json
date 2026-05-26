@@ -1,0 +1,13 @@
+{
+  "name": "nlp-tutorial",
+  "version": "1.0.0",
+  "description": "从零到一的NLP体系教程",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
