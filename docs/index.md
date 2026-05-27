@@ -10,7 +10,7 @@ hero:
       link: /nlp-introduction/what-is-nlp
     - theme: alt
       text: GitHub
-      link: https://github.com
+      link: https://github.com/leonyangdev/nlp-tutorial
 features:
   - icon: 📚
     title: 体系完整
