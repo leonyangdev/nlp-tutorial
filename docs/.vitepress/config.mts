@@ -106,6 +106,7 @@ export default defineConfig({
             items: [
               { text: '总览', link: '/neural-networks/' },
               { text: 'FNN 前馈网络', link: '/neural-networks/fnn' },
+              { text: 'CNN 卷积网络', link: '/neural-networks/cnn' },
               { text: 'RNN 循环网络', link: '/neural-networks/rnn' },
               { text: 'LSTM', link: '/neural-networks/lstm' },
               { text: 'GRU', link: '/neural-networks/gru' },
@@ -254,6 +255,7 @@ export default defineConfig({
           items: [
             { text: '总览', link: '/neural-networks/' },
             { text: 'FNN 前馈网络', link: '/neural-networks/fnn' },
+            { text: 'CNN 卷积神经网络', link: '/neural-networks/cnn' },
             { text: 'RNN 循环网络', link: '/neural-networks/rnn' },
             { text: 'LSTM 长短期记忆', link: '/neural-networks/lstm' },
             { text: 'GRU 门控循环单元', link: '/neural-networks/gru' },
@@ -357,7 +359,7 @@ export default defineConfig({
 
     footer: {
       message: 'AI 知识体系 — 从机器学习到大语言模型',
-      copyright: 'Copyright 2025'
+      copyright: 'Copyright 2026'
     },
 
     search: {
