@@ -12,6 +12,19 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
 
+  markdown: {
+    math: true,
+  },
+
+  vue: {
+    template: {
+      compilerOptions: {
+        // 将 MathJax 输出的 mjx-* 自定义元素告知 Vue 编译器，避免 SSR 报错
+        isCustomElement: (tag) => tag.startsWith('mjx-'),
+      },
+    },
+  },
+
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'NLP 教程',
@@ -172,7 +185,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/leonyangdev/nlp-tutorial' }
     ],
 
     footer: {
